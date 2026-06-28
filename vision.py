@@ -66,13 +66,8 @@ def analyze(
             ]
         }],
         "safetySettings": [
-            {"category": c, "threshold": "BLOCK_NONE"}
-            for c in [
-                "HARM_CATEGORY_HARASSMENT",
-                "HARM_CATEGORY_HATE_SPEECH",
-                "HARM_CATEGORY_SEXUALLY_EXPLICIT",
-                "HARM_CATEGORY_DANGEROUS_CONTENT",
-            ]
+            {"category": f"HARM_CATEGORY_{c}", "threshold": "BLOCK_ONLY_HIGH"}
+            for c in ["HARASSMENT", "HATE_SPEECH", "SEXUALLY_EXPLICIT", "DANGEROUS_CONTENT"]
         ],
     }
 

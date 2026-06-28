@@ -1,6 +1,6 @@
 # Vision CLI
 
-Minimal CLI tool for image analysis via Google Gemini. Single-file, zero telemetry, communicates only with the Gemini API.
+Minimal CLI tool for image analysis via Google Gemini. Single file, zero telemetry, communicates only with the Gemini API.
 
 ## Setup
 
